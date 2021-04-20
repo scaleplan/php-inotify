@@ -1,5 +1,5 @@
 {
-  "name": "krowinski/php-inotify",
+  "name": "avtomon/php-inotify",
   "description": "Wraps php inotify module into object and dispatch them using event dispatcher.",
   "keywords": [
     "inotify"
@@ -17,7 +17,7 @@
     "php": ">=7.1",
     "ext-inotify": "*",
     "ext-json": "*",
-    "symfony/event-dispatcher": "^2.8|^3.1|^4.0",
+    "symfony/event-dispatcher": "5.2.*",
     "vistik/typed-collections": "^2.0",
     "myclabs/php-enum": "^1.7"
   },
